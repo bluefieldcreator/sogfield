@@ -11,4 +11,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_MAIN
 #endif
 
-#include "\z\sogfield\main\script_macros.hpp"
+#include "\z\sogfield\addons\main\script_macros.hpp"

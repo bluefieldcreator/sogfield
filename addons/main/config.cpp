@@ -7,7 +7,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {}; // include external addons here that your whole mod depends on and have your other addons require this one.
+        requiredAddons[] = { "loadorder_f_vietnam" }; // include external addons here that your whole mod depends on and have your other addons require this one.
         authors[] = {"Bluefield"}; // sub array of authors, considered for the specific addon
         author = "Bluefield"; // primary author name, either yours or your team's, considered for the whole mod
         VERSION_CONFIG;
