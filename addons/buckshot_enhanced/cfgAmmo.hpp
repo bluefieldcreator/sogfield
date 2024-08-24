@@ -1,4 +1,4 @@
-class CfgAmmo {
+class cfgAmmo {
     class vn_40mm_m576_buck_ammo;
     class sogfield_40mm_m576_buck_ammo: vn_40mm_m576_buck_ammo
     {
