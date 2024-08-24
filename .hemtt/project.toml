@@ -1,0 +1,38 @@
+name = "Sogfield"
+prefix = "sogfield"
+author = "Bluefield"
+mainprefix = "z"
+
+[files]
+include = [
+    "*.dll",
+    "*.so",
+    "mod.cpp",
+    "README*.md",  # Translated READMEs get moved to root in a hook (virtual file system)
+    "AUTHORS.txt",
+    "LICENSE",
+    "logo_ace3_ca.paa",
+    "meta.cpp",
+]
+
+[version]
+git_hash = 0
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3
+    "623475643", # 3den Enhanced
+    "2369477168", # Developer Tools
+    "1779063631", # Zeus Enhanced
+]
+
+
+[hemtt.launch.vn]
+extends = "default"
+dlc = [
+    "S.O.G. Prairie Fire",
+]
+
+
+
+
