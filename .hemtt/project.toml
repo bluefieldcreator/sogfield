@@ -11,7 +11,7 @@ include = [
     "README*.md",  # Translated READMEs get moved to root in a hook (virtual file system)
     "AUTHORS.txt",
     "LICENSE",
-    "logo_ace3_ca.paa",
+    "*.paa",
     "meta.cpp",
 ]
 
