@@ -26,13 +26,11 @@ workshop = [
     "1779063631", # Zeus Enhanced
     "463939057", # ACE
 ]
-
-
-[hemtt.launch.vn]
-extends = "default"
 dlc = [
     "S.O.G. Prairie Fire",
 ]
+
+
 
 
 
